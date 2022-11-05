@@ -29,7 +29,7 @@ slide1 = Slide(
     Step(
         Data.filter("record.origin == 'KOR'"),# 데이터 필터링
         Config({"x": ["item"], "y": ["quantity"], "label":"quantity",
-                "title": "오렌지와 사과의 총생산량"}),
+                "title": "오렌지와 사과의 총생산량- 한국으로 필터건 상태"}),
     )
 )
 story.add_slide(slide1)
